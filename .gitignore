@@ -2,3 +2,5 @@ node_modules/
 dist/
 .env
 .env.*
+AGENTS.md
+personal-expense-manager-project-description.md
