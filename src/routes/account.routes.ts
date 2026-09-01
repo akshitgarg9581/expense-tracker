@@ -1,12 +1,12 @@
 import { Router } from "express";
 import {
-  getAllAccounts,
+  getUserAccounts,
   createAccount,
 } from "../controllers/account.controller.js";
 
 const router = Router();
 
-router.get("/", getAllAccounts);
+router.get("/", getUserAccounts);
 router.post("/", createAccount);
 
 export default router;

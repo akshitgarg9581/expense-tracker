@@ -3,7 +3,7 @@ import { db } from "../db/index.js";
 import { accountsTable } from "../db/schema.js";
 import { eq } from "drizzle-orm";
 
-export const getAllAccounts: RequestHandler = async (req, res) => {
+export const getUserAccounts: RequestHandler = async (req, res) => {
   try {
     const userId = req.query.userId;
     if (!userId) {
